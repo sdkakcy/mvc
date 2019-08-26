@@ -1,9 +1,6 @@
 <?php
 
-App::get("/");
+App::get("/", "default/index");
 
 
-App::post("/");
-
-
-
+App::post("/" , "default/index");

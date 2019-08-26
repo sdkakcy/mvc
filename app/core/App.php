@@ -31,17 +31,17 @@ class App
         };
     }
 
-    public static function get($path, $auth = false, $callback = null)
+    public static function get($link, $path, $auth = false, $callback = null)
     {
 
-        self::$routes[] = ["GET", $path, $auth, $callback];
+        self::$routes[] = ["GET", $link, $path, $auth, $callback];
 
     }
 
-    public static function post($path, $auth = false, $callback = null)
+    public static function post($link, $path, $auth = false, $callback = null)
     {
 
-        self::$routes[] = ["POST", $path, $auth, $callback];
+        self::$routes[] = ["POST", $link, $path, $auth, $callback];
 
     }
 
@@ -51,7 +51,7 @@ class App
 
         foreach (self::$routes as $route) {
 
-            list($method, $path, $auth, $params) = $route;
+            list($method, $link, $path, $auth, $params) = $route;
 
             $methodCheck = $this->activeMethod == $method;
 
@@ -64,51 +64,25 @@ class App
             //GET isteklerini ayırma
             $this->activePath = explode("?", $this->activePath)[0];
 
-            $pathCheck = preg_match("~^{$path}$~", $this->activePath, $params);
-
+            $pathCheck = preg_match("~^{$link}$~", $this->activePath, $params);
 
             if ($methodCheck && $pathCheck) {
 
-                $url = array_filter(explode("/", $path));
+                $path = array_filter(explode("/", $path));
 
-                if (count($url) == 0) {
+                if ($auth == true && isset($_SESSION[$this->auth["auth_files"][$path[0]]]) || $auth == false) {
 
-                    $module = "efendi";
-                    $controller = "efendiController";
-                    $action = "indexAction";
+                    $module = $path[0];
+                    $controller = $path[0] . "Controller";
+                    $action = $path[1] . "Action";
 
-                } else if (count($url) == 1) {
+                }else{
 
-                    if ($auth == true && isset($_SESSION[$this->auth["auth_files"][$url[1]]]) || $auth == false) {
-
-                        $module = $url[1];
-                        $controller = $url[1] . "Controller";
-                        $action = "indexAction";
-
-                    } else {
-
-                        Controller::redirect($this->auth["auth_urls"][$url[1]] . "?redirect=" . $this->activePath . "&auth=false");
-                        exit;
-
-                    }
-
-                } else {
-
-                    if ($auth == true && isset($_SESSION[$this->auth["auth_files"][$url[1]]]) || $auth == false) {
-
-                        $module = $url[1];
-                        $controller = $url[1] . "Controller";
-                        $action = $url[2] . "Action";
-
-
-                    } else {
-
-                        Controller::redirect($this->auth["auth_urls"][$url[1]] . "?redirect=" . $this->activePath . "&auth=false");
-                        exit;
-
-                    }
+                    Controller::redirect($this->auth["auth_urls"][$path[0]] . "?redirect=" . $this->activePath . "&auth=false");
+                    exit;
 
                 }
+
 
                 if (file_exists($file = APP_DIR . "/modules/{$module}/controller/{$controller}.php")) {
 

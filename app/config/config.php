@@ -34,7 +34,7 @@ require_once CORE . "Model.php";
 require_once CORE . "Controller.php";
 require_once CORE . "View.php";
 require_once CORE . "App.php";
-require_once CONFIG . "routing.php";
+require_once "routing.php";
 require_once DIR . "vendor/autoload.php";
 
 global $config;
