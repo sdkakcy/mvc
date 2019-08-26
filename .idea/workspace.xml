@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6767304-c0f8-4009-a999-69f5bd455f32" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/event/HesapOnayPosta.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/event/MesajYanitPosta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/event/defaultEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/event/SifremiUnuttumPosta.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/event/YeniIcerikPosta.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/event/YeniMesajPosta.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap/sitemapGenerator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566821280089</updated>
-      <workItem from="1566821282698" duration="7197000" />
+      <workItem from="1566821282698" duration="7368000" />
     </task>
     <task id="LOCAL-00001" summary="kurulum">
       <created>1566822721542</created>
@@ -104,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566830096870</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="duzenlemeler">
+      <created>1566830376815</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566830376815</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +130,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="kurulum" />
     <MESSAGE value="sistem güncellemeleri" />
-    <option name="LAST_COMMIT_MESSAGE" value="sistem güncellemeleri" />
+    <MESSAGE value="duzenlemeler" />
+    <option name="LAST_COMMIT_MESSAGE" value="duzenlemeler" />
   </component>
 </project>
