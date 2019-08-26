@@ -1,27 +1,16 @@
 <?php
 
 
-class HesapOnay implements SplSubject
+class defaultListener implements SplSubject
 {
 
     protected $observers = [];
 
-    public $kadi;
-
-    public $kgad;
-
-    public $eposta;
-
-    public $ac;
 
 
-    public function __construct($kadi, $eposta, $ac, $kgad = null)
+    public function __construct()
     {
 
-        $this->kadi = $kadi;
-        $this->eposta = $eposta;
-        $this->ac = $ac;
-        $this->kgad = $kgad;
 
     }
 

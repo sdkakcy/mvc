@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6767304-c0f8-4009-a999-69f5bd455f32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/modules/default/controller/defaultController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/modules/default/model/defaultModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/modules/default/view/indexView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/modules/panel/controller/panelController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/modules/panel/model/panelModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/event/HesapOnayPosta.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/event/MesajYanitPosta.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/event/defaultEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/event/SifremiUnuttumPosta.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/event/YeniIcerikPosta.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/event/YeniMesajPosta.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566821280089</updated>
-      <workItem from="1566821282698" duration="6954000" />
+      <workItem from="1566821282698" duration="7197000" />
     </task>
     <task id="LOCAL-00001" summary="kurulum">
       <created>1566822721542</created>
@@ -101,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566822952295</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sistem güncellemeleri">
+      <created>1566830096870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566830096870</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="kurulum" />
-    <option name="LAST_COMMIT_MESSAGE" value="kurulum" />
+    <MESSAGE value="sistem güncellemeleri" />
+    <option name="LAST_COMMIT_MESSAGE" value="sistem güncellemeleri" />
   </component>
 </project>
