@@ -1,4 +1,4 @@
 # global
 User-agent: *
 Disallow: /xmlrpc.php
-Sitemap: efendidergi/sitemap.xml.gz
+Sitemap: https://ydsyokdil.net/sitemap.xml.gz

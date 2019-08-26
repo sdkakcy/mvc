@@ -10,6 +10,5 @@ return array(
     'Symfony\\Contracts\\Translation\\' => array($vendorDir . '/symfony/translation-contracts'),
     'Symfony\\Component\\Translation\\' => array($vendorDir . '/symfony/translation'),
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
-    'Gumlet\\' => array($vendorDir . '/gumlet/php-image-resize/lib'),
     'Carbon\\' => array($vendorDir . '/nesbot/carbon/src/Carbon'),
 );

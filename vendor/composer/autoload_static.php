@@ -23,10 +23,6 @@ class ComposerStaticIniteb136049dcba5996623428375d61325a
         array (
             'PHPMailer\\PHPMailer\\' => 20,
         ),
-        'G' => 
-        array (
-            'Gumlet\\' => 7,
-        ),
         'C' => 
         array (
             'Carbon\\' => 7,
@@ -49,10 +45,6 @@ class ComposerStaticIniteb136049dcba5996623428375d61325a
         'PHPMailer\\PHPMailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
-        ),
-        'Gumlet\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/gumlet/php-image-resize/lib',
         ),
         'Carbon\\' => 
         array (
