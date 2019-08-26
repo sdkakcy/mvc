@@ -1,0 +1,4 @@
+# global
+User-agent: *
+Disallow: /xmlrpc.php
+Sitemap: efendidergi/sitemap.xml.gz
