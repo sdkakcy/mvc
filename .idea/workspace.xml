@@ -70,6 +70,7 @@
       <updated>1566821280089</updated>
       <workItem from="1566821282698" duration="7520000" />
       <workItem from="1566830687775" duration="110000" />
+      <workItem from="1567087104172" duration="97000" />
     </task>
     <task id="LOCAL-00001" summary="kurulum">
       <created>1566822721542</created>
@@ -127,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566830713615</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="duzenleme">
+      <created>1567087197219</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567087197219</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +161,7 @@
     <MESSAGE value="duzenlemeler" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
+    <MESSAGE value="duzenleme" />
+    <option name="LAST_COMMIT_MESSAGE" value="duzenleme" />
   </component>
 </project>
