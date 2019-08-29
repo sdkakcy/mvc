@@ -72,15 +72,15 @@ spl_autoload_register(function ($class_name) {
 
     }
 
-    if(file_exists(APP_DIR . "listener/{$class_name}.php")){
-
-        require_once APP_DIR . "listener/{$class_name}.php";
-
-    }
-
     if(file_exists(APP_DIR . "event/{$class_name}.php")){
 
         require_once APP_DIR . "event/{$class_name}.php";
+
+    }
+
+    if(file_exists(APP_DIR . "listener/{$class_name}.php")){
+
+        require_once APP_DIR . "listener/{$class_name}.php";
 
     }
 
