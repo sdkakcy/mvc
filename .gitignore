@@ -83,3 +83,4 @@ modules.xml
 # End of https://www.gitignore.io/api/phpstorm
 .idea/workspace.xml___jb_tmp___
 *.jpg
+.idea/workspace.xml
